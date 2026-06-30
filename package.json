@@ -1,0 +1,29 @@
+{
+  "name": "agentplugins-conventional-commits",
+  "version": "0.1.0",
+  "description": "Slash command for drafting conventional commit messages from staged diffs.",
+  "license": "MIT",
+  "author": {
+    "name": "sigilco",
+    "url": "https://github.com/sigilco"
+  },
+  "homepage": "https://github.com/sigilco/agentplugins-conventional-commits",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sigilco/agentplugins-conventional-commits.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sigilco/agentplugins-conventional-commits/issues"
+  },
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "agentplugins build",
+    "validate": "agentplugins validate"
+  },
+  "devDependencies": {
+    "@agentplugins/core": "^0.5.0",
+    "@agentplugins/cli": "^0.5.0",
+    "typescript": "^5.5.0"
+  }
+}
